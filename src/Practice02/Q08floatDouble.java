@@ -18,20 +18,19 @@ public class Q08floatDouble {
         int intSayi = (int) doubleSayi;
 
         long longSayi = 1234567890;
-        float a= (float) longSayi;
+        float a = (float) longSayi;
 
 
-
-        Scanner scan=new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("Zaman:");
         int saniye = scan.nextInt();
-        int dakika = saniye/60;
-        int saat = dakika/60;
+        int dakika = saniye / 60;
+        int saat = dakika / 60;
 
-        dakika=dakika%60;
-        saniye=saniye%60;
+        dakika = dakika % 60;
+        saniye = saniye % 60;
 
-        System.out.printf("%02d:%02d:%02d", saat,dakika,saniye);
+        System.out.printf("%02d:%02d:%02d", saat, dakika, saniye);
     }
 
 
